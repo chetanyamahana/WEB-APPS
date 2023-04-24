@@ -1,0 +1,307 @@
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple HTML HomePage</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+    body {
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    /* CSS for header */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #f5f5f5;
+    }
+   
+
+    .header .logo {
+      font-size: 50px;
+      font-family: 'Sriracha', cursive;
+      color: #000;
+      text-decoration: none;
+      margin-left: 30px;
+    }
+
+    .nav-items {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #f5f5f5;
+      margin-right: 20px;
+    }
+
+    .nav-items a {
+      text-decoration: none;
+      color: #000;
+      padding: 35px 20px;
+    }
+
+    /* CSS for main element */
+    .intro {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 520px;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .intro h1 {
+      font-family: sans-serif;
+      font-size: 60px;
+      color: #fff;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin: 0;
+    }
+
+    .intro p {
+      font-size: 20px;
+      color: #d1d1d1;
+      text-transform: uppercase;
+      margin: 20px 0;
+    }
+
+    .intro button {
+      background-color: #5edaf0;
+      color: #000;
+      padding: 10px 25px;
+      border: none;
+      border-radius: 5px;
+      font-size: 50px;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4)
+    }
+
+    
+
+    .about-me {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 80px;
+      border-top: 2px solid #eeeeee;
+    }
+
+    .about-me img {
+      width: 500px;
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .about-me-text h2 {
+      font-size: 30px;
+      color: #333333;
+      text-transform: uppercase;
+      margin: 0;
+    }
+
+    .about-me-text p {
+      font-size: 15px;
+      color: #585858;
+      margin: 10px 0;
+    }
+
+    /* CSS for footer */
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #302f49;
+      padding: 40px 80px;
+    }
+
+    .footer .copy {
+      color: #fff;
+    }
+
+    .bottom-links {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 40px 0;
+    }
+
+    .bottom-links .links {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 40px;
+    }
+
+    .bottom-links .links span {
+      font-size: 20px;
+      color: #fff;
+      text-transform: uppercase;
+      margin: 10px 0;
+    }
+
+    .bottom-links .links a {
+      text-decoration: none;
+      color: #a1a1a1;
+      padding: 10px 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="header">
+    <img src="logo.png" alt="logo" style="width:250px;height:200px;">
+    <h3 href="#" class="logo">Koderz Consultant </h3>
+    <nav class="nav-items">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Sign Up </a>
+      <a  href="./login-page/index.html">Log In</a>
+    </nav>
+  </header>
+  <main>
+    <!DOCTYPE html>
+    <html lang="en">
+        
+    <head>
+        <link rel="stylesheet" href="./style.css" >
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title >Profile</title>
+        <style>
+            body{
+                background-image: url(Logo3.jpg);
+                background-size:auto;
+                background-repeat: no-repeat;
+                background-position: center;
+                backface-visibility: visible;
+                opacity:20;
+            }
+            input[type=submit], input[type=reset] {
+                background-color: #1a9ab1;
+                border: none;
+                color: white;
+                padding: 16px 32px;
+                text-decoration: none;
+                margin: 4px 2px;
+                cursor: pointer;
+              }
+              
+        </style>
+    
+    </head>
+    <body>
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback for Koderz Company</title>
+    <style>
+        body{
+            background-image:url(ss.png);
+        }
+        
+    </style>
+</head>
+<body>
+   <form action= >
+       <h1><center> Feedback for Koderz Consultant </center></h1>
+       <hr>
+       <p>Required fields are followed by *</p>
+       <fieldset>
+           <legend>User Details</legend>
+
+       <p>Name*- <input type="text" name="Name" required></p>
+       <p>
+           <fieldset>
+               <legend>Gender*</legend>
+           
+           Male <input type="radio" name="Gender" id="Male" required>
+           Female <input type="radio" name="Gender" id="female" required>
+           Others<imput type="radio" name="Gender" id="Others" required>
+        </fieldset>
+       </p>
+       <p>Address- <textarea name="address" id="address" cols="70" rows="8"></textarea></textarea></p>
+       <p>Pincode- <input type="number" name="pincode" id="pincode"></p> 
+       <p>Email- <input type="email" name="Email" id="email"></p>
+          
+       </fieldset>
+       <fieldset>
+           <legend>Critiques</legend>
+            <p>
+            How satisfied are you with the level of expertise and knowledge demonstrated by our consultants?<textarea name="que1" id="que1" cols="50" rows="4"></textarea> 
+            </p>
+            <p>
+            Did our consultants effectively address your needs and concerns?<textarea name="que2" id="que2" cols="50" rows="4"></textarea>
+           </p>   
+           <p>
+            How well did our consultants communicate with you during the engagement?<textarea name="que3" id="que3" cols="50" rows="4"></textarea>
+           </p>
+           <p>
+            Were the consulting services provided within your budget and timeline?<textarea name="que4" id="que4" cols="50" rows="4"></textarea>
+           </p>
+           <p>
+            Did our consultants deliver value for the money spent on their services?<textarea name="que5" id="que5" cols="50" rows="4"></textarea>
+           </p>
+           <p>
+            How likely are you to recommend our consulting services to others?<textarea name="que5" id="que5" cols="50" rows="4"></textarea>
+           </p>
+           <p>
+            Did our consultancy services meet or exceed your expectations?
+            <input type="radio" name="ans" value="yes">Yes
+            <input type="radio" name="ans" value="No">No
+           </p>
+           <p>1. How satisfied are you with the quality of the consulting services provided?
+            <input type="Checkbox" name="Satisfied" value="yes">Satisfied
+            <input type="Checkbox" name="Neutral" value="yes">Neutral
+            <input type="Checkbox" name="Not Satisfied" value="yes">Not Satisfied
+            
+           </p>
+           <p>2. How likely are you to use our consultancy services again in the future?
+            <input type="Checkbox" name=" Satisfied" value="yes">Satisfied
+            <input type="Checkbox" name="Neutral" value="yes">Neutral
+            <input type="Checkbox" name="Not Satisfied" value="yes">Not Satisfied
+        
+           </p>
+           <p>3. How responsive were our consultants to your needs?
+            <input type="Checkbox" name="Satisfied" value="yes">Satisfied
+            <input type="Checkbox" name="Neutral" value="yes">Neutral
+            <input type="Checkbox" name="Not Satisfied" value="yes">Not Satisfied
+            
+           </p>
+           <p>4. How well did our consultants understand your business needs?
+            <input type="Checkbox" name="Satisfied" value="yes">Satisfied
+            <input type="Checkbox" name="Neutral" value="yes">Neutral
+            <input type="Checkbox" name="Not Satisfied" value="yes">Not Satisfied
+           
+           </p>
+
+
+           <input type="submit" value="Submit">
+       </fieldset>
+   </form>
+</body>
+</html>
+        
+       
+       
+  
+</body>
+
+</html>
